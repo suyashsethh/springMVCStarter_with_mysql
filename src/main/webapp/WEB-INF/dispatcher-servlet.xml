@@ -28,7 +28,7 @@
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
         <property name="url"
-                  value="jdbc:mysql://hopper.proxy.rlwy.net:PORT/railway?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC"/>
+                  value="jdbc:mysql://mysql-ngw2.railway.internal:3306/railway?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC"/>
         <property name="username" value="root"/>
         <property name="password" value="tTjqgtQpobdLBKkRoCYWavNMWtGqDVJz"/>
     </bean>
